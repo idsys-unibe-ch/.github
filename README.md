@@ -15,3 +15,15 @@ The templates are rather extensive and shall help its user to not forget certain
 * Action plan for a maintenance window
 * Creating a report for somebody
 
+## Scripts
+
+### `massage_repo.sh`
+
+Use this script on newly created repositories to update various settings to team
+standards. Instead of clicking through the GUI over at GitHub, this is handled
+by this nice script. Things currently manged by the script include:
+
+- Setting up autolink reference to Service Now (SNOW)[^1]
+
+[^1]: Links to Service Now tickets are automatically created when entered in the
+  form SNOW-???, i.e.  SNOW-INC98973422
