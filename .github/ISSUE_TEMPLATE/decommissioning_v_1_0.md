@@ -1,4 +1,4 @@
-#Decommissioning a Linux Server  
+# Decommissioning a Linux Server  
 
 **Describe wich and why will be a server decommissioning**
 <p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p>  <!-- put the ID Number here -->
