@@ -4,6 +4,14 @@
 <p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p>  <!-- put the ID Number here -->
 <!-- A clear and concise description of what the problem is. -->  
 
+<!--The steps from confluence https://unibe-ch.atlassian.net/wiki/x/moU8Aw  are followed.  -->
+
+>**Servername :** <!-- Servername to decommission -->  
+>**FQDN:** <!-- FQDN -->  
+>**IP:** <!-- IP -->  
+>**Contact person:** <!-- Contact person -->  
+>**Projectname:** <!-- Name of the project -->
+
 **Screenshots**
 <!-- If applicable, add screenshots to help explain your problem. -->
 
@@ -13,14 +21,6 @@
 
 # Action Items
 
-<!--The steps from confluence https://unibe-ch.atlassian.net/wiki/x/moU8Aw  are followed.  -->
-
->**Servername :** <!-- Servername to decommission -->  
->**FQDN:** <!-- FQDN -->  
->**IP:** <!-- IP -->  
->**Contact person:** <!-- Contact person -->  
->**Projectname:** <!-- Name of the project -->  
-  
 - [ ] Pause system in [PRTG](https://idprtg.unibe.ch) indefinitely with a comment "marked for decommissioning"
 - [ ] Revoke SSL certificate. Assignment group "ID - PKI" ID <!-- put the ID Number here -->
       <p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p>  
