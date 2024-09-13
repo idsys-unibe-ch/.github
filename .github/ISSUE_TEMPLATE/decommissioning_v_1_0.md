@@ -21,7 +21,7 @@
 >**Contact person:** <!-- Contact person -->  
 >**Projectname:** <!-- Name of the project -->  
   
-- [ ] System in PRTG stop with a comment (ID-Service Now)
+- [ ] Pause system in [PRTG](https://idprtg.unibe.ch) indefinitely with a comment "marked for decommissioning"
 - [ ] Revoke SSL certificate. Assignment group "ID - PKI" ID <!-- put the ID Number here -->
       <p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p>  
 - [ ] Delete DNS Entries (if possible), otherwise create a Ticket in Service Now to the assignment group "ID - Hostmaster" (Technikcal Service: DDI (DNS/DHCP/IP)) with the request to delete the Host entry:
