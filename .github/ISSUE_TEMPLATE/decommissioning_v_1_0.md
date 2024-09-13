@@ -50,9 +50,10 @@
 - [ ] Database in PostgreSQL will also be deleted if it exists. 
 - [ ] NAS configs will be deleted. Send a Email with the Servername and IP to Roland, Trummer <roland.trummer@unibe.ch> and wait the confirmation
 - [ ] Shut down the system
-> - [ ] - a.) If ESXI VM cannot be deleted → create a Ticket to ESXI Team with the request to delete the server
-> - [ ] - b.) If hardware system → remove the disks, wipe them and pass them on correctly place (ESXI Büro in die Blaue Box), Check the inventory number and check the next steps with Lead SYS (disposal / Storage)
-- [ ] Delete Server
+- [ ] Delete the server:
+  - [ ] a.) delete VM in vCenter, if VM cannot be deleted → create a Ticket to ESXI Team with the request to delete the server
+  - [ ] b.) If hardware system → remove the disks, wipe them and pass them on correctly place (Dispose of in the container in the basement, where the electronic waste is), Check the inventory number and check the next steps with Lead SYS (disposal / Storage)
+
 - [ ] Close decommissioning Ticket im Service now with status resolved
 
 
