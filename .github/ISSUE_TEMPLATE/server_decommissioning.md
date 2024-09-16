@@ -1,3 +1,11 @@
+---
+name: Server Decomissioning
+about: Action workflow for decommissioning linux servers at IDC.
+title: '<!-- A short title to the point -->'
+labels: 'task'
+
+---
+
 # Decommissioning a Linux Server  
 
 **Describe which server(s) is/are to be decommissioned and why**
