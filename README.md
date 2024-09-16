@@ -2,7 +2,7 @@
 
 ## Community Health Files
 
-This repository currently features three different issue templates and one pull request template. When creating a new issue the template chooser is presented
+This repository currently features four different issue templates and one pull request template. When creating a new issue the template chooser is presented
 and a template has to be chosen for the new issue. Nevertheless is still possible to start from a blank issue.  
 For pull requests only one template is available for all PRs.
 
