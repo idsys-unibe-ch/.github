@@ -1,6 +1,6 @@
 ---
 name: Server Decomissioning
-about: Action workflow for decommissioning linux servers at IDC.
+about: Action workflow for decommissioning linux servers at ID.
 title: '<!-- A short title to the point -->'
 labels: 'task'
 
@@ -9,7 +9,7 @@ labels: 'task'
 # Decommissioning a Linux Server  
 
 **Describe which server(s) is/are to be decommissioned and why**
-<p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p>  <!-- put the ID Number here -->
+ <p>ID-Service Now: SNOW-IDxxx </p>
 <!-- A clear and concise description of what the problem is. -->  
 
 <!--The steps from confluence https://unibe-ch.atlassian.net/wiki/x/moU8Aw  are followed.  -->
@@ -31,9 +31,9 @@ labels: 'task'
 
 - [ ] Pause system in [PRTG](https://idprtg.unibe.ch) indefinitely with a comment "marked for decommissioning"
 - [ ] Revoke SSL certificate. Assignment group "ID - PKI" ID <!-- put the ID Number here -->
-      <p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p>  
+      <p>ID-Service Now: SNOW-IDxxx </p>
 - [ ] Delete DNS Entries (if possible), otherwise create a Ticket in Service Now to the assignment group "ID - Hostmaster" (Technikcal Service: DDI (DNS/DHCP/IP)) with the request to delete the Host entry:
-         <p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p>  
+         <p>ID-Service Now: SNOW-IDxxx </p>
     **DNS list**
   > - [ ] <!-- <FQDN> and <IP> -->
   
@@ -49,9 +49,9 @@ labels: 'task'
 - [ ] Cancel Backup (Tape). Email to Büren, Peter (ID) <peter.vonbueren@unibe.ch> 
 - [ ] In the Secret Server (if possible) delete (AKA deactivate) passwords and information that are no longer used. (https://idsecret.unibe.ch/SecretServer)
 - [ ] Firewall-Rules: create a Ticket in Service Now to assignment group "ID - Security" (Technical Service: Firewalldienste) with Hostname/IP with the request to delete all firewall rules 
-       <p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p>   <!-- put the ID Number here -->
+       <p>ID-Service Now: SNOW-IDxxx </p>
 - [ ] Elasticsearch: create a Ticket in Service Now to assignment "ID - Security" (Technical Service: Elasticsearch) with the request to delete the host from elasticsearch. 
-        <p>ID-Service Now: <input type="text" size="20" maxlength="40" name="ID-Number" value="ID-Number" /></p> <!-- put the ID Number here -->
+        <p>ID-Service Now: SNOW-IDxxx </p>
 - [ ] Check documentation to see if there are any references to other dependencies that need to be deleted
 - [ ] Delete any documentation for the System
 - [ ] Inform those responsible for the system and ask them to delete relevant documentation in their space in confluence.
