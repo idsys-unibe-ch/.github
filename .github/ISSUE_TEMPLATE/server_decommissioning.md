@@ -29,7 +29,7 @@ labels: 'task'
 
 # Action Items
 
-- [ ] Pause system in [PRTG](https://idprtg.unibe.ch) indefinitely with a comment "marked for decommissioning"
+- [ ] Disable host in zabbix with the comment "marked for decommissioning"
 - [ ] Revoke SSL certificate. Assignment group "ID - PKI" ID <!-- put the ID Number here -->
       <p>ID-Service Now: SNOW-IDxxx </p>
 - [ ] Delete DNS Entries (if possible), otherwise create a Ticket in Service Now to the assignment group "ID - Hostmaster" (Technikcal Service: DDI (DNS/DHCP/IP)) with the request to delete the Host entry:
